@@ -41,79 +41,79 @@ def translate(text):
             translated = translated + "a"
             
         elif (char == "b"): 
-            translated = translated + "z”
+            translated = translated + "z"
 
         elif (char == "c"): 
-            translated = translated + "y”
+            translated = translated + "y"
 
         elif (char == "d"): 
-            translated = translated + "x”
+            translated = translated + "x"
 
         elif (char == "e"): 
-            translated = translated + "e”
+            translated = translated + "e"
 
         elif (char == "f"): 
-            translated = translated + "w”
+            translated = translated + "w"
 
         elif (char == "g"): 
-            translated = translated + "v”
+            translated = translated + "v"
 
         elif (char == "h"): 
-            translated = translated + "t”
+            translated = translated + "t"
 
         elif (char == "i"): 
-            translated = translated + "i”
+            translated = translated + "i"
 
         elif (char == "j"): 
-            translated = translated + "s”
+            translated = translated + "s"
 
         elif (char == "k"): 
-            translated = translated + "r”
+            translated = translated + "r"
 
         elif (char == "l"): 
-            translated = translated + "l”
+            translated = translated + "l"
 
         elif (char == "m"): 
-            translated = translated + "p”
+            translated = translated + "p"
 
         elif (char == "n"): 
-            translated = translated + "n”
+            translated = translated + "n"
 
         elif (char == "o"): 
-            translated = translated + "o”
+            translated = translated + "o"
 
         elif (char == "p"): 
-            translated = translated + "m”
+            translated = translated + "m"
 
         elif (char == "q"): 
-            translated = translated + "q”
+            translated = translated + "q"
 
         elif (char == "r"): 
-            translated = translated + "k”
+            translated = translated + "k"
 
         elif (char == "s"): 
-            translated = translated + "j”
+            translated = translated + "j"
 
         elif (char == "t"): 
-            translated = translated + "h”
+            translated = translated + "h"
 
         elif (char == "u"): 
-            translated = translated + "u”
+            translated = translated + "u"
 
         elif (char == "v"): 
-            translated = translated + "g”
+            translated = translated + "g"
 
         elif (char == "w"): 
-            translated = translated + "f”
+            translated = translated + "f"
 
         elif (char == "x"): 
-            translated = translated + "d”
+            translated = translated + "d"
 
         elif (char == "y"): 
-            translated = translated + "c”
+            translated = translated + "c"
 
         elif (char == "z"): 
-            translated = translated + "b”
+            translated = translated + "b"
 
         elif (char == "l"):
             translated = translated + "1"
