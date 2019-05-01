@@ -38,11 +38,86 @@ def translate(text):
     translated = ""
     for char in text:
         if (char == "a"):
-            translated = translated + "3"
+            translated = translated + "a"
+            
+        elif (char == "b"): 
+            translated = translated + "z”
+
+        elif (char == "c"): 
+            translated = translated + "y”
+
+        elif (char == "d"): 
+            translated = translated + "x”
+
+        elif (char == "e"): 
+            translated = translated + "e”
+
+        elif (char == "f"): 
+            translated = translated + "w”
+
+        elif (char == "g"): 
+            translated = translated + "v”
+
+        elif (char == "h"): 
+            translated = translated + "t”
+
+        elif (char == "i"): 
+            translated = translated + "i”
+
+        elif (char == "j"): 
+            translated = translated + "s”
+
+        elif (char == "k"): 
+            translated = translated + "r”
+
+        elif (char == "l"): 
+            translated = translated + "l”
+
+        elif (char == "m"): 
+            translated = translated + "p”
+
+        elif (char == "n"): 
+            translated = translated + "n”
+
+        elif (char == "o"): 
+            translated = translated + "o”
+
+        elif (char == "p"): 
+            translated = translated + "m”
+
+        elif (char == "q"): 
+            translated = translated + "q”
+
+        elif (char == "r"): 
+            translated = translated + "k”
+
+        elif (char == "s"): 
+            translated = translated + "j”
+
+        elif (char == "t"): 
+            translated = translated + "h”
+
+        elif (char == "u"): 
+            translated = translated + "u”
+
+        elif (char == "v"): 
+            translated = translated + "g”
+
+        elif (char == "w"): 
+            translated = translated + "f”
+
+        elif (char == "x"): 
+            translated = translated + "d”
+
+        elif (char == "y"): 
+            translated = translated + "c”
+
+        elif (char == "z"): 
+            translated = translated + "b”
+
         elif (char == "l"):
             translated = translated + "1"
-        elif (char == "o"):
-            translated = translated + "0"
+       
         elif (char != " "):
             translated = translated + "X"
         else:
