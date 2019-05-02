@@ -26,7 +26,7 @@ async def on_message(message):
     if message.content.startswith('Hello, my knife in shining butter'):
         await message.channel.send('The waffle knight arrives!')
     
-    if message.content.startswith('$translate'):
+    if message.content.startswith('$translate') or message.content.startswith('.orc'):
         textToTranslate = message.content[11:]
         print(message.channel)
         await message.channel.send(translate(textToTranslate))
