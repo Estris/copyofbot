@@ -77,7 +77,6 @@ def translate(text):
         elif (char == "H"): 
             translated = translated + "T"
             
-            
         elif (char == "i"): 
             translated = translated + "i"
         elif (char == "I"): 
@@ -170,7 +169,7 @@ def translate(text):
             
         elif (char == "l"):
             translated = translated + "1"
-         elif (char == "2"):
+        elif (char == "2"):
             translated = translated + "2"
         elif (char == "3"):
             translated = translated + "3"
@@ -186,19 +185,26 @@ def translate(text):
             translated = translated + "8"
         elif (char == "9"):
             translated = translated + "9"
-         elif (char == "0"):
+        elif (char == "0"):
             translated = translated + "0"
             
-           elif (char == "‘"):
+        elif (char == "‘"):
             translated = translated + "‘"       
-            elif (char == "“"):
+        elif (char == "“"):
             translated = translated + "“"               
-           elif (char == ","):
+        elif (char == ","):
             translated = translated + ","     
-           elif (char == "!"):
+        elif (char == "!"):
             translated = translated + "!"
-           elif (char == "."):
+        elif (char == "."):
             translated = translated + "."            
+        elif (char == ";"):
+            translated = translated + ";"
+        elif (char == ":"):
+            translated = translated + ":"
+        elif (char == "?"):
+            translated = translated + "?"
+            
             
         elif (char != " "):
             translated = translated + "X"
