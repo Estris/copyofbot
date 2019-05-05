@@ -204,6 +204,8 @@ def translate(text):
             translated = translated + ":"
         elif (char == "?"):
             translated = translated + "?"
+        elif (char == "’"):
+            translated = translated + "’"
             
             
         elif (char != " "):
