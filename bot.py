@@ -214,6 +214,6 @@ def translate(text):
             translated = translated + " "
     return translated
 
-client.run('NTcwNjU3NDg0NjU4ODM1NDY2.XMeZ_w.VG9MoM9SXASp5E0NlV0JwnjLaac')
+client.run('TOKEN')
 
 
